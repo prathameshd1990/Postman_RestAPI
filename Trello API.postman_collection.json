@@ -17,7 +17,7 @@
 								"id": "8f0a57ee-ae2d-4546-bb8e-8de27940445d",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {\r",
-									"    pm.response.to.have.status(201);\r",
+									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
 									"const responseData = pm.response.json();          // declare a jsonData variable and parse the response\r",
